@@ -1,0 +1,322 @@
+html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Groceries Landing Page</title>
+  <link rel="stylesheet" href="landing.css">
+</head>
+<body>
+
+  <header >
+   
+      <h1 style="font-family: cursive;font-weight:2px;letter-spacing:1px;color:beige brown;font-stretch: ultra-expanded;margin-top: 10px;">Welcome to Fresh Mart</h1><br>
+      <button onclick="window.location.href='www.example.com/signup'" style="background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  margin-left: 90%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+ 
+  cursor: pointer;">Sign Up</button>
+      <p style="margin-top:0px;">Your one-stop shop for fresh groceries</p><br>
+      
+    </div>
+      <img src="g.jpg" width=100% height="100%">
+    </div>
+  </header>
+  <section id="about-grocery" class="about-grocery" style="background-image: url(grocery3.jpg); background-size: 90%;">
+    <div class="container">
+      <h2 id="p" style="padding:20px 20px;">FRESH MART</h2><BR>
+      <p id="p">Fresh Mart is your go-to destination for the finest and freshest groceries sourced from local farmers and suppliers. 
+        We are committed to providing you with high-quality products at affordable prices.</p>
+        
+    </div>
+  </section>
+  <section id="products" style="background-color: rgb(73, 63, 63);">
+    <div class="container">
+      <h2 style="margin-left: 40%;margin-top:20px;margin-bottom:20px;color:whitesmoke;">FEATURED PRODUCTS</h2>
+      <div class="product">
+        <img src="basmati.webp" alt="Product 1" width="50%" height="30%">
+        <h3>BASMATI</h3>
+        <p class="price">RS.445/-(5 KG)</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="gw.webp" alt="Product 2" width="50%" height="30%">
+        <h3>GOLD WINNER OIL</h3>
+        <p class="price">Rs.200/- per lit</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="chicken-masala.jpg" alt="Product 3" width="50%" height="30%">
+        <h3>SAKTHI CHICKEN MASALA</h3>
+        <p class="price">Rs.56 (100gm)</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="surf.jpg" alt="Product 4" width="50%" height="100%">
+        <h3>SURF EXCEL</h3>
+        <p class="price">134/- PER KG</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="aatta.jpg" alt="Product 4" width="50%" height="100%">
+        <h3>ASHIRVAAT AATTA</h3>
+        <p class="price">Rs.60/- PER Kg</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="boost.webp" alt="Product 4" width="50%" height="100%">
+        <h3>BOOST</h3>
+        <p class="price">Rs.300/- (500gm)</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="3 roses.jpg" alt="Product 4" height="20%" width="50%">
+        <h3>3 ROSES</h3>
+        <p class="price">Rs.90 100gm</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="comfort.jpg" alt="Product 4" width="20%" height="30%">
+        <h3>COMFORT</h3>
+        <p class="price">Rs.115 (400ml)</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="himalaya.jpg" alt="Product 4" width="12%" height="40%">
+        <h3>HIMALAYA NEEM FACE WASH</h3>
+        <p class="price">RS.284 (100ML)</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="dabur.jpg" alt="Product 4" width="35%" height="100%">
+        <h3>DABUR RED PASTE</h3>
+        <p class="price">RS.68</p>
+        <button>Add to Cart</button>
+      </div><div class="product">
+        <img src="powder.jpg" alt="Product 4" width="40%" height="100%">
+        <h3>ENCHANTEUR POWDER</h3>
+        <p class="price">RS.450 (250g)</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="fogg.jpg" alt="Product 4" width="40%" height="100%">
+        <h3>FOGG</h3>
+        <p class="price">RS.799(100ml)</p>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+  </section>
+  <section id="products" style="background-color:rgb(65, 38, 38);">
+    <div class="container"  >
+      <h2 style="margin-left:30px;margin-bottom:20px;margin-top:10px;padding:10px 10px;color:white;">FRESH VEGES AND FRUITS</h2>
+      <div class="product">
+        <img src="carrot.jpg" alt="Product 1" width="40%" height="30%">
+        <h3>CARROT</h3>
+        <p class="price">RS.66/-(1 KG)</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="onion.jpg".webp alt="Product 2" width="80%" height="30%">
+        <h3>ONION</h3>
+        <p class="price">Rs.65/- per 1kg</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="potato.jpg" alt="Product 3" width="80%" height="30%">
+        <h3>POTATO</h3>
+        <p class="price">Rs.32 (1 kg)</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="beet.jpg" alt="Product 1" width="60%" height="30%">
+        <h3>BEET ROOT</h3>
+        <p class="price">RS.45(1 kg)</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="grapes.jpg" alt="Product 2" width="80%" height="30%">
+        <h3>GRAPES</h3>
+        <p class="price">Rs.50/- 500gm</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="apple.jpg" alt="Product 3" width="90%" height="30%">
+        <h3>APPLE</h3>
+        <p class="price">Rs.160 (500gm)</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="pome.jpg" alt="Product 1" width="70%" height="30%">
+        <h3>POMEGRANATE</h3>
+        <p class="price">RS.150/-(1 KG)</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="orange.jpg" alt="Product 2" width="60%" height="30%">
+        <h3>ORANGE</h3>
+        <p class="price">Rs.75/- (1Kg)</p>
+        <button>Add to Cart</button>
+      </div>
+      
+      </div>
+      </section>
+
+  <section id="about">
+    <div class="container" >
+      <h2 style="margin-left: 45%;margin-top:20px;margin-bottom:20px;color:whitesmoke;">About Us</h2>
+      <p style="margin-left:30px;">Fresh Mart is dedicated to providing the freshest groceries to our customers. We work directly with local farmers and suppliers to ensure the highest quality products.</p>
+    </div>
+  </section>
+
+  <section id="testimonials" style=" background-color: rgb(39, 39, 64);">
+    <div class="container">
+      <h2 style="margin-left: 45%;margin-top:20px;margin-bottom:20px;color:whitesmoke;">Testimonials</h2>
+      <div class="testimonial">
+        
+        <blockquote>"I love the variety of products Fresh Mart offers. Everything is always fresh and delicious!"</blockquote>
+        <cite>- John Doe</cite>
+      </div>
+      <div class="testimonial">
+        
+        <blockquote>"Fresh Mart has made my grocery shopping experience so much better. I highly recommend it!"</blockquote>
+        <cite>- Jane Smith</cite>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Fresh Mart. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
+
+    css
+
+    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .about-grocery {
+
+    background-size: cover;
+    background-position: center;
+    
+    color: white;
+    padding: 220px 210px;
+  }
+
+  body {
+    
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+  }
+  #p{
+
+    margin-left:70%;
+    color:black;
+    text-align: justify;
+  }
+  
+
+  
+  header, footer {
+    
+    text-align: center;
+    background-color:rgb(16, 16, 28);
+    color: white;
+   padding:10px;
+
+  }
+  
+  header h1 {
+    font-size: 2em;
+  }
+  
+  section {
+    padding: 40px 0;
+  }
+  
+  .product {
+  
+    display: inline-block;
+    padding:50% 50%;
+    margin-right: 20px;
+    margin-left:30px;
+    vertical-align: top;
+    width: 20%;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .product img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .product h3 {
+    font-size: 1.2em;
+  }
+  
+  .price {
+    font-weight: bold;
+    color: #4CAF50;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .testimonial {
+    background-color: rgb(140, 140, 162);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  blockquote {
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+  
+  cite {
+    font-weight: bold;
+  }
+  #about{
+    background-color:rgb(191, 136, 116)
+  }
